@@ -541,7 +541,7 @@ function renderSettings(view) {
     <section class="card">
       <h2>About you</h2>
       <label class="lbl" for="s-name">Your name <small class="muted">(shown on what you log)</small></label>
-      <input type="text" id="s-name" value="${esc(st.device.name)}" placeholder="e.g. Khomi">
+      <input type="text" id="s-name" value="${esc(st.device.name)}" placeholder="e.g. Dad">
       <label class="lbl" for="s-child">Child’s first name or nickname <small class="muted">(optional)</small></label>
       <input type="text" id="s-child" value="${esc(S.setting('childName'))}" placeholder="optional">
       <label class="lbl" for="s-start">Started current stage on</label>
