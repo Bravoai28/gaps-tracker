@@ -1,0 +1,16 @@
+{
+  "name": "GAPS Tracker",
+  "short_name": "GAPS",
+  "description": "Gentle meal & symptom tracker for the GAPS Introduction Diet",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F5F7F1",
+  "theme_color": "#F5F7F1",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
