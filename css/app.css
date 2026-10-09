@@ -188,7 +188,7 @@ textarea { min-height: 70px; resize: vertical; }
 .trend-row { display: grid; grid-template-columns: 92px 1fr 38px; align-items: center; gap: 8px; font-weight: 700; font-size: 14px; }
 .disclaimer { font-size: 14px; color: #4F5B58; background: #EEF1EA; border-radius: var(--r-md); padding: 12px 14px; margin-bottom: 14px; }
 .disclaimer b { color: var(--ink); }
-.code { font-family: ui-monospace, Menlo, monospace; font-size: 20px; font-weight: 800; letter-spacing: .04em; background: var(--bg); border-radius: var(--r-sm); padding: 14px; text-align: center; word-break: break-all; user-select: all; }
+.code { font-family: ui-monospace, Menlo, monospace; font-size: 17px; font-weight: 800; letter-spacing: .04em; background: var(--bg); border-radius: var(--r-sm); padding: 14px; text-align: center; word-break: break-all; user-select: all; }
 
 #toast { position: fixed; left: 50%; bottom: calc(var(--tabh) + 20px + env(safe-area-inset-bottom)); transform: translateX(-50%) translateY(20px); background: var(--ink); color: #fff; padding: 12px 18px; border-radius: 999px; font-weight: 700; font-size: 15px; opacity: 0; transition: .25s; z-index: 60; pointer-events: none; max-width: 90vw; text-align: center; }
 #toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }

@@ -1,5 +1,5 @@
 // Offline-first service worker: app shell is cached; sync calls go to network.
-const VERSION = 'gaps-v1.0.0';
+const VERSION = 'gaps-v1.0.1';
 const SHELL = [
   './', './index.html', './css/app.css', './js/app.js', './js/stages.js', './js/store.js', './js/sync.js',
   './manifest.webmanifest', './icons/icon.svg', './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png',
